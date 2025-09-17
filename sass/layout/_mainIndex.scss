@@ -1,0 +1,36 @@
+.indexSectionUno{
+    @include flex(space-between,center,none,none,none);
+    margin: 3.125rem;
+    div{
+        @include flex(center,center,column,none,none);
+        margin-right: 15.625rem;
+    }
+}
+
+.indexSectionDos{
+    margin: 3.125rem;
+    .tarjetasImportante{
+        display: flex;
+        justify-content: space-around;
+        .importanteMain{
+            background-color:map-get($colores,color2);
+            width: 18.75rem;
+            margin-left: 3.125rem;
+            margin-right: 3.125rem;
+            padding: 6.25rem;
+            article{
+                @include flex(center,center,column,none,none);
+                h2{
+                    width: 12.5rem;
+                    display: flex;
+                    justify-content: center;
+                    margin: .9375rem;
+                }
+                p{
+                    margin: .9375rem;
+                    width: 9.375rem;
+                }
+            }
+        }
+    }
+}

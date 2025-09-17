@@ -1,0 +1,51 @@
+.sectionContactos{
+    @include flex(center,center,column,none,none);
+}
+
+.tituloContactos{
+    display: flex;
+    justify-content: center;
+    margin: 3.125rem;
+    h2{
+        font-size: 3.125rem;
+    }
+}
+
+.divContactos{
+    background-color:map-get($colores,color2);
+    @include flex(center,center,column,none,none);
+    height: 43.75rem;
+    margin: 3.125rem;
+    width: 31.25rem;
+    h3{
+        font-size: 1.875rem;
+        margin-bottom: 4.375rem;
+    }
+}
+
+.redesSocialesTitulo{
+    font-size: 1.4375rem;
+}
+
+.redesSocialesList{
+    list-style: none;
+    margin-top: .3125rem;
+    margin-bottom: 2.25rem;
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.contactos{
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    .h4ContactosS{
+        font-size: 1.4375rem;
+    }
+    .pContactos{
+        margin-top: .3125rem;
+    }
+}

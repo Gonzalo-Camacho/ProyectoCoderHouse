@@ -1,0 +1,34 @@
+.sectionTienda{
+        @include flex(center,center,column,none,none);
+        h2{
+            font-size: 3.125rem;
+            margin: 3.125rem;
+        }
+}
+
+.gridProductos{
+    margin-bottom: 1.25rem;
+    gap: 1.5625rem;
+    width: 80%;
+    height: 37.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 15.625rem;
+    div{
+        background-color:map-get($colores,color2);
+        @include flex(center,center,column,none,none);
+        height: 100%;
+        width: 100%;
+        a{
+            background-color:map-get($colores,color3);
+            color:map-get($colores,color4);
+            text-decoration: none;
+            margin: .625rem;
+        }
+        img{
+            height: 15.625rem;
+            width: 12.5rem;
+            margin: .625rem;
+        }
+    }
+}

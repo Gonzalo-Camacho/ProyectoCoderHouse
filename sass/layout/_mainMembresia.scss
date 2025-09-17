@@ -1,0 +1,33 @@
+.membresiaSection{
+    margin: 3.125rem;
+    .tituloMembresia{
+        @include flex(center,center,none,none,none);
+        margin: 2.25rem;
+        h2{
+            font-size: 3.125rem;
+        }
+    }
+    .tarjetasMembresia{
+    display: flex;
+    justify-content:space-around;
+    height: 34.6875rem;
+    div{
+        background-color:map-get($colores,color2);
+        width: 21.875rem;
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
+        padding: 6.25rem;
+        @include flex(center,center,column,none,none);
+        h2{
+            width: 12.5rem;
+            display: flex;
+            justify-content: center;
+            margin: .9375rem;
+            font-size: 1.875rem;
+        }
+        h3{
+            margin: .625rem;
+        }
+    }
+    }
+}

@@ -1,0 +1,11 @@
+@media(max-width:1024px){
+    .gridProductos{
+        margin-bottom: 1.25rem;
+        gap: 1.5625rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15.625rem;
+        height: 100%;
+    }
+}

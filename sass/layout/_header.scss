@@ -1,0 +1,11 @@
+header{
+    background-color:map-get($colores,color1);
+    display: flex;
+    a{
+        width: 10%;
+        img{
+            width: 12.5rem;
+            border-radius: 50%;
+        }
+    }
+}

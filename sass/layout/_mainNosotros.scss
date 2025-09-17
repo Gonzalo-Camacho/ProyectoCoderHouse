@@ -1,0 +1,21 @@
+.tituloNosotros{
+    @include flex(center,center,column,none,none);
+    margin: 3.125rem;
+    h2{
+        font-size: 3.125rem;
+    }
+}
+
+.contenedorNosotros{
+    background-color:map-get($colores,color2);
+    @include flex(space-evenly,center,column,none,none);
+    height: 43.75rem;
+    margin: 3.125rem;
+    h3{
+        font-size: 1.875rem;
+    }
+    p{
+        font-size: 1.5625rem;
+        width: 60%;
+    }
+}
