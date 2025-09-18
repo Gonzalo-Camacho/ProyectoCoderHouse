@@ -1,4 +1,14 @@
 @media(max-width:1024px){
+    .botonesNav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botonesFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .gridProductos{
         margin-bottom: 1.25rem;
         gap: 1.5625rem;

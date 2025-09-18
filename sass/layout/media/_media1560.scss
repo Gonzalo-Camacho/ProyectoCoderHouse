@@ -3,9 +3,23 @@
         flex-direction: column;
     }
 
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-.botonesNav li a{
-    margin: .3125rem;
-    padding: .3125rem;
-}
+    .botonesNav li a{
+        margin: .3125rem;
+        padding: .3125rem;
+    }
+
+    .botonesFooter{
+            li{
+            a{
+                margin: .3125rem;
+                padding: .3125rem;
+            }
+        }
+    }
 }
