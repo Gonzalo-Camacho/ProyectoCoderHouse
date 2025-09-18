@@ -24,6 +24,8 @@
             color:map-get($colores,color4);
             text-decoration: none;
             margin: .625rem;
+            border-radius: .625rem;
+            padding: .1875rem;
         }
         img{
             height: 15.625rem;

@@ -362,6 +362,8 @@ header a img {
   color: #4b6e66;
   text-decoration: none;
   margin: 0.625rem;
+  border-radius: 0.625rem;
+  padding: 0.1875rem;
 }
 .gridProductos div img {
   height: 15.625rem;
