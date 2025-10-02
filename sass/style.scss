@@ -10,16 +10,17 @@
 @import "./base/tipografias";
 
 /*layout*/
-@import "./layout/header";
-@import "./layout/mainIndex";
-@import "./layout/mainContactos";
-@import "./layout/mainMembresia";
-@import "./layout/mainNosotros";
-@import "./layout/mainTienda";
-@import "./layout/footer";
+@import "./layout/general/header";
+@import "./layout/main/mainIndex";
+@import "./layout/main/mainContactos";
+@import "./layout/main/mainMembresia";
+@import "./layout/main/mainNosotros";
+@import "./layout/main/mainTienda";
+@import "./layout/general/footer";
 
 /*Componentes*/
 @import "./components/navbar";
+@import "./components/card";
 
 /*Media Query (web design o Mobile first)*/
 
