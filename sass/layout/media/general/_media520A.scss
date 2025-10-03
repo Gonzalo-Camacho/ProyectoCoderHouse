@@ -1,0 +1,18 @@
+@media(max-width:520px){
+    header{
+        @include flex(center,flex-start,none,none,none);
+        .navBar{
+            width: auto;
+            margin: 0;
+            .botonesNav{
+                flex-direction: column;
+                li{
+                    margin: .1563rem;
+                    a{
+                        padding: .2188rem;
+                    }
+                }
+            }
+        }
+    }
+}

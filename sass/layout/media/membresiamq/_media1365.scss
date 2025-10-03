@@ -1,0 +1,10 @@
+@media(max-width:1365px){
+    .membresiaSection{
+        @include flex(center,center,column,none,.625rem);
+        height: 103.125rem;
+        .tarjetasMembresia{
+            @include flex(center,center,column,none,.625rem);
+            height: auto;
+        }
+    }
+}

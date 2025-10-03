@@ -3,7 +3,7 @@
     margin: 3.125rem;
     div{
         @include flex(center,center,column,none,none);
-        margin-right: 15.625rem;
+        margin: 6.25rem;
     }
 }
 

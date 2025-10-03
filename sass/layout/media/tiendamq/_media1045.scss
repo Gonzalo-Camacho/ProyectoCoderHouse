@@ -1,0 +1,6 @@
+@media(max-width:1160px){
+    .gridProductos{
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    }
+}

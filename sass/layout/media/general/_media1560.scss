@@ -1,0 +1,36 @@
+@media(max-width:1560px){  
+    .navBar{
+        margin: 0rem;
+        .botonesNav{
+            li{
+                margin: 0rem;
+                a{
+                    margin: 3.125rem;
+                }
+            }
+        }
+    }
+
+    footer{
+        align-items: flex-start;
+        .botonesFooter{
+            flex-direction: column;
+            align-items: flex-start;
+            li{
+                margin: .375rem;
+                a{
+                    margin: .625rem;
+                    font-size: .75rem;
+                    padding: .25rem;
+                }
+            }
+        }
+        .imagenesFooter{
+            @include flex(center,center,column,none,none);
+            a{
+                margin: .3125rem;
+            }
+        }
+    }
+}
+

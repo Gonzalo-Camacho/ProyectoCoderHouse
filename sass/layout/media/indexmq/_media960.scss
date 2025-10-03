@@ -1,0 +1,23 @@
+@media(max-width:960px){
+    .indexSectionUno{
+        img{
+            width: 28.125rem;
+        }
+        div{
+            margin: 2.5rem;
+            h1{
+                font-size: 3.125rem;
+            }
+        }
+    }
+    
+    .indexSectionDos{
+        margin: 1.5625rem;
+        .tarjetasImportante{
+            @include flex(center,center,column,none,none);
+            .importanteMain{
+                margin: 1.5625rem;
+            }
+        }
+    }
+}

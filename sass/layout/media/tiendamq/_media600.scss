@@ -1,0 +1,14 @@
+@media(max-width:600px){
+    .sectionTienda{
+        h2{
+            font-size: 3.125rem;
+        }
+        .gridProductos{
+            grid-template-columns: repeat(1, 1fr);
+            margin: .625rem;
+            .productosContenedor{
+                width: 100%;
+            }
+        }
+        }
+}

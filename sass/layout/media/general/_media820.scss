@@ -1,0 +1,22 @@
+@media(max-width:820px){
+    header{
+        @include flex(center,center,column,none,none);
+        a{
+            margin-bottom: .3125rem;
+            img{
+                width: 6.25rem;
+            }
+        }
+        .navBar{
+            margin: .3125rem;
+            .botonesNav{
+                margin: .3125rem;
+                li{
+                    a{
+                        font-size: .75rem;
+                    }
+                }
+            }
+        }
+    }
+}

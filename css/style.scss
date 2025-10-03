@@ -126,6 +126,7 @@ p {
 /*layout*/
 header {
   background-color: #DEAA79;
+  background-color: black;
   display: flex;
 }
 header a {
@@ -477,6 +478,25 @@ footer .botonesFooter li a {
   }
 }
 @media (max-width: 1160px) {
+  /*.botonesNav{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .botonesFooter{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .gridProductos{
+      margin-bottom: 1.25rem;
+      gap: 1.5625rem;
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 15.625rem;
+      height: 100%;
+  }*/
   .navBar .botonesNav {
     margin: 0;
   }
@@ -524,9 +544,6 @@ footer .botonesFooter li a {
   header .navBar {
     width: auto;
     margin: 0;
-  }
-  header .navBar .botonesNav {
-    flex-direction: column;
   }
   header .navBar .botonesNav li {
     margin: 0.1563rem;
@@ -617,103 +634,28 @@ footer .botonesFooter li a {
     width: 15.625rem;
   }
 }
-@media (max-width: 1160px) {
+@media (max-width: 1045px) {
   .gridProductos {
-    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1.25rem;
+    gap: 1.5625rem;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 15.625rem;
     height: 100%;
   }
 }
-@media (max-width: 600px) {
-  .sectionTienda h2 {
-    font-size: 3.125rem;
-  }
-  .sectionTienda .gridProductos {
+@media (max-width: 520px) {
+  .gridProductos {
+    background-color: black;
+    margin-bottom: 1.25rem;
+    gap: 1.5625rem;
+    width: 80%;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0.625rem;
-  }
-  .sectionTienda .gridProductos .productosContenedor {
-    width: 100%;
-  }
-}
-@media (max-width: 765px) {
-  .sectionNosotros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: none;
-    gap: none;
-  }
-  .sectionNosotros .contenedorNosotros {
-    width: 31.25rem;
-  }
-  .sectionNosotros .contenedorNosotros h3 {
-    font-size: 1.5625rem;
-    margin: 0.3125rem;
-  }
-  .sectionNosotros .contenedorNosotros p {
-    font-size: 1.25rem;
-  }
-}
-@media (max-width: 545px) {
-  .sectionNosotros .tituloNosotros {
-    margin: 1.5625rem;
-  }
-  .sectionNosotros .contenedorNosotros {
-    margin: 1.25rem;
-    margin-top: 0rem;
-    width: 28.125rem;
-  }
-  .sectionNosotros .contenedorNosotros h3 {
-    font-size: 1.875rem;
-  }
-  .sectionNosotros .contenedorNosotros p {
-    font-size: 0.9375rem;
-  }
-}
-@media (max-width: 470px) {
-  .sectionNosotros .contenedorNosotros {
-    margin: 1.25rem;
-    margin-top: 0rem;
-    width: 18.75rem;
-    height: 37.5rem;
-  }
-  .sectionNosotros .contenedorNosotros h3 {
-    font-size: 1.5625rem;
-  }
-  .sectionNosotros .contenedorNosotros p {
-    font-size: 0.75rem;
-  }
-}
-@media (max-width: 550px) {
-  .divContactos {
-    width: 18.75rem;
-  }
-}
-@media (max-width: 1365px) {
-  .membresiaSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: none;
-    gap: 0.625rem;
-    height: 103.125rem;
-  }
-  .membresiaSection .tarjetasMembresia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: none;
-    gap: 0.625rem;
-    height: auto;
-  }
-}
-@media (max-width: 375px) {
-  .membresiaSection .tarjetasMembresia .membresiaMain {
-    width: 17.1875rem;
+    grid-auto-rows: 15.625rem;
+    height: 100%;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */

@@ -1,0 +1,18 @@
+@media(max-width:780px){
+    .indexSectionUno{
+        flex-direction:column-reverse;
+        margin: 2.8125rem;
+        img{
+            width: 25rem;
+        }
+        div{
+            margin: 1.875rem;
+            h1{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: .75rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@media(max-width:765px){
+    .sectionNosotros{
+        @include flex(center,center,column,none,none);
+        .contenedorNosotros{
+            width: 31.25rem;
+            h3{
+                font-size: 1.5625rem;
+                margin: .3125rem;
+            }
+            p{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}

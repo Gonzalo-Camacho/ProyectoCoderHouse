@@ -6,10 +6,12 @@
 @import "./utilities/animaciones";
 
 /*base*/
+
 @import "./base/reset";
 @import "./base/tipografias";
 
 /*layout*/
+
 @import "./layout/general/header";
 @import "./layout/main/mainIndex";
 @import "./layout/main/mainContactos";
@@ -19,12 +21,26 @@
 @import "./layout/general/footer";
 
 /*Componentes*/
+
 @import "./components/navbar";
 @import "./components/card";
 
 /*Media Query (web design o Mobile first)*/
 
-@import "./layout/media/media1560";
-@import "./layout/media/media1024";
-@import "./layout/media/media520";
-@import "./layout/media/media320";
+@import "./layout/media/general/media1560";
+@import "./layout/media/general/media1160";
+@import "./layout/media/general/media820";
+@import "./layout/media/general/media520A";
+@import "./layout/media/indexmq/media1210";
+@import "./layout/media/indexmq/media1100";
+@import "./layout/media/indexmq/media960";
+@import "./layout/media/indexmq/media780";
+@import "./layout/media/indexmq/media450";
+@import "./layout/media/tiendamq/media1045";
+@import "./layout/media/tiendamq/media600";
+@import "./layout/media/nosotrosmq/media765";
+@import "./layout/media/nosotrosmq/media545";
+@import "./layout/media/nosotrosmq/media470";
+@import "./layout/media/contactosmq/media550";
+@import "./layout/media/membresiamq/media1365";
+@import "./layout/media/membresiamq/media375";
