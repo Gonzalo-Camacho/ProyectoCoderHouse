@@ -12,3 +12,44 @@
     margin: 3.125rem;
     width: 31.25rem;
 }
+
+.membresiaMain{
+    @include flex(center,center,column,none,none);
+    @extend .card1;
+        h2{
+            width: 12.5rem;
+            display: flex;
+            justify-content: center;
+            margin: .9375rem;
+            font-size: 1.875rem;
+        }
+        h3{
+            margin: .625rem;
+        }
+        ul{
+            width: 15.625rem;
+            li{
+                width: 15.625rem;
+                margin: .3125rem;
+            }
+        }
+    }
+
+.cardBronce{
+    @extend .membresiaMain;
+    --angle: 45deg; 
+    background: linear-gradient(to left bottom, #913a00, #b58d6d, #943d03);    
+}
+
+.cardPlata{
+    @extend .membresiaMain;
+    --angle: 45deg; 
+    background: linear-gradient(to right, #6d7472, #e6ebea, #6f7674);
+}
+
+.cardOro{
+    @extend .membresiaMain;
+    --angle: 45deg; 
+    background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+}
+

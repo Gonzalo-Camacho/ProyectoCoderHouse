@@ -125,15 +125,16 @@ p {
 
 /*layout*/
 header {
-  background-color: #DEAA79;
+  background-color: #15469b;
   display: flex;
 }
 header a {
   width: 10%;
 }
 header a img {
-  width: 12.5rem;
+  width: 6.25rem;
   border-radius: 50%;
+  margin: 0.3125rem;
 }
 
 .indexSectionUno {
@@ -144,6 +145,9 @@ header a img {
   flex-wrap: none;
   gap: none;
   margin: 3.125rem;
+}
+.indexSectionUno img {
+  width: 43.75rem;
 }
 .indexSectionUno div {
   display: flex;
@@ -257,25 +261,6 @@ header a img {
   justify-content: space-around;
   height: 34.6875rem;
 }
-.membresiaSection .tarjetasMembresia div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: none;
-  gap: none;
-}
-.membresiaSection .tarjetasMembresia div h2 {
-  width: 12.5rem;
-  display: flex;
-  justify-content: center;
-  margin: 0.9375rem;
-  font-size: 1.875rem;
-}
-.membresiaSection .tarjetasMembresia div h3 {
-  margin: 0.625rem;
-}
-
 .tituloNosotros {
   display: flex;
   justify-content: center;
@@ -290,7 +275,7 @@ header a img {
 }
 
 .contenedorNosotros {
-  background-color: #B1C29E;
+  background-color: #b7d2eb;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -331,7 +316,7 @@ header a img {
   grid-auto-rows: 15.625rem;
 }
 .gridProductos div {
-  background-color: #B1C29E;
+  background-color: #b7d2eb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,8 +327,8 @@ header a img {
   width: 100%;
 }
 .gridProductos div a {
-  background-color: #FFE6A9;
-  color: #4b6e66;
+  background-color: #f3f3e4;
+  color: #15469b;
   text-decoration: none;
   margin: 0.625rem;
   border-radius: 0.625rem;
@@ -352,7 +337,7 @@ header a img {
 .gridProductos div img {
   height: 15.625rem;
   width: 12.5rem;
-  margin: 0.625rem;
+  margin-top: 0.3125rem;
 }
 
 footer {
@@ -362,7 +347,7 @@ footer {
   flex-direction: none;
   flex-wrap: none;
   gap: none;
-  background-color: #DEAA79;
+  background-color: #15469b;
 }
 footer .botonesFooter {
   display: flex;
@@ -396,8 +381,8 @@ footer .botonesFooter li {
   list-style: none;
   margin: 0.3125rem;
 }
-.card1, .indexSectionDos .tarjetasImportante .importanteMain, .membresiaSection .tarjetasMembresia div {
-  background-color: #B1C29E;
+.card1, .membresiaMain, .cardOro, .membresiaSection .tarjetasMembresia .membresiaOro, .cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata, .cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce, .indexSectionDos .tarjetasImportante .importanteMain {
+  background-color: #b7d2eb;
   width: 21.875rem;
   margin-left: 3.125rem;
   margin-right: 3.125rem;
@@ -405,23 +390,64 @@ footer .botonesFooter li {
 }
 
 .card2, .divContactos {
-  background-color: #B1C29E;
+  background-color: #b7d2eb;
   height: 43.75rem;
   margin: 3.125rem;
   width: 31.25rem;
 }
 
+.membresiaMain, .cardOro, .membresiaSection .tarjetasMembresia .membresiaOro, .cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata, .cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: none;
+  gap: none;
+}
+.membresiaMain h2, .cardOro h2, .membresiaSection .tarjetasMembresia .membresiaOro h2, .cardPlata h2, .membresiaSection .tarjetasMembresia .membresiaPlata h2, .cardBronce h2, .membresiaSection .tarjetasMembresia .membresiaBronce h2 {
+  width: 12.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0.9375rem;
+  font-size: 1.875rem;
+}
+.membresiaMain h3, .cardOro h3, .membresiaSection .tarjetasMembresia .membresiaOro h3, .cardPlata h3, .membresiaSection .tarjetasMembresia .membresiaPlata h3, .cardBronce h3, .membresiaSection .tarjetasMembresia .membresiaBronce h3 {
+  margin: 0.625rem;
+}
+.membresiaMain ul, .cardOro ul, .membresiaSection .tarjetasMembresia .membresiaOro ul, .cardPlata ul, .membresiaSection .tarjetasMembresia .membresiaPlata ul, .cardBronce ul, .membresiaSection .tarjetasMembresia .membresiaBronce ul {
+  width: 15.625rem;
+}
+.membresiaMain ul li, .cardOro ul li, .membresiaSection .tarjetasMembresia .membresiaOro ul li, .cardPlata ul li, .membresiaSection .tarjetasMembresia .membresiaPlata ul li, .cardBronce ul li, .membresiaSection .tarjetasMembresia .membresiaBronce ul li {
+  width: 15.625rem;
+  margin: 0.3125rem;
+}
+
+.cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce {
+  --angle: 45deg;
+  background: linear-gradient(to left bottom, #913a00, #b58d6d, #943d03);
+}
+
+.cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata {
+  --angle: 45deg;
+  background: linear-gradient(to right, #6d7472, #e6ebea, #6f7674);
+}
+
+.cardOro, .membresiaSection .tarjetasMembresia .membresiaOro {
+  --angle: 45deg;
+  background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+}
+
 .button, footer .botonesFooter li a, .navBar .botonesNav a {
-  background-color: #FFE6A9;
-  color: #4b6e66;
+  color: #f3f3e4;
   text-decoration: none;
   font-family: "Genos", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.25rem;
   padding: 0.3125rem 0.9375rem;
   border-radius: 0.625rem;
-  margin: 6.25rem;
+  margin: 3.125rem;
 }
 
 /*Media Query (web design o Mobile first)*/
@@ -462,7 +488,7 @@ footer .botonesFooter li {
     margin: 0.3125rem;
   }
 }
-@media (max-width: 1160px) {
+@media (max-width: 1220px) {
   .navBar .botonesNav {
     margin: 0;
   }
@@ -473,7 +499,7 @@ footer .botonesFooter li {
     margin: 0.3125rem;
   }
 }
-@media (max-width: 820px) {
+@media (max-width: 875px) {
   header {
     display: flex;
     justify-content: center;
@@ -689,7 +715,7 @@ footer .botonesFooter li {
     flex-direction: column;
     flex-wrap: none;
     gap: 0.625rem;
-    height: 103.125rem;
+    height: 109.375rem;
   }
   .membresiaSection .tarjetasMembresia {
     display: flex;
@@ -702,7 +728,7 @@ footer .botonesFooter li {
   }
 }
 @media (max-width: 375px) {
-  .membresiaSection .tarjetasMembresia .membresiaMain {
+  .membresiaSection .tarjetasMembresia .membresiaMain, .membresiaSection .tarjetasMembresia .cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce, .membresiaSection .tarjetasMembresia .cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata, .membresiaSection .tarjetasMembresia .cardOro, .membresiaSection .tarjetasMembresia .membresiaOro {
     width: 17.1875rem;
   }
 }

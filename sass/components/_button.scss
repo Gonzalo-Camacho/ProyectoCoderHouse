@@ -1,12 +1,12 @@
 .button{
-    background-color: map-get($colores,color3);
-    color: map-get($colores,color4);
+    color: map-get($colores,color3);
     text-decoration: none;
     font-family: "Genos", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.25rem;
     padding: .3125rem .9375rem;
     border-radius: .625rem;
-    margin: 6.25rem;
+    margin: 3.125rem;
 }

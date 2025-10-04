@@ -21,7 +21,7 @@
         width: 100%;
         a{
             background-color:map-get($colores,color3);
-            color:map-get($colores,color4);
+            color:map-get($colores,color1);
             text-decoration: none;
             margin: .625rem;
             border-radius: .625rem;
@@ -30,7 +30,7 @@
         img{
             height: 15.625rem;
             width: 12.5rem;
-            margin: .625rem;
+            margin-top: .3125rem;
         }
     }
 }

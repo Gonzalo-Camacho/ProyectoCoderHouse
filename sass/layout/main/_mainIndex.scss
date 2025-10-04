@@ -1,6 +1,9 @@
 .indexSectionUno{
     @include flex(space-between,center,none,none,none);
     margin: 3.125rem;
+    img{
+        width: 43.75rem;
+    }
     div{
         @include flex(center,center,column,none,none);
         margin: 6.25rem;
