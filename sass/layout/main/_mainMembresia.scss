@@ -12,12 +12,8 @@
     justify-content:space-around;
     height: 34.6875rem;
     div{
-        background-color:map-get($colores,color2);
-        width: 21.875rem;
-        margin-left: 3.125rem;
-        margin-right: 3.125rem;
-        padding: 6.25rem;
         @include flex(center,center,column,none,none);
+        @extend .card1;
         h2{
             width: 12.5rem;
             display: flex;

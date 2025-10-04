@@ -13,11 +13,7 @@
         display: flex;
         justify-content: space-around;
         .importanteMain{
-            background-color:map-get($colores,color2);
-            width: 18.75rem;
-            margin-left: 3.125rem;
-            margin-right: 3.125rem;
-            padding: 6.25rem;
+            @extend .card1;
             article{
                 @include flex(center,center,column,none,none);
                 h2{

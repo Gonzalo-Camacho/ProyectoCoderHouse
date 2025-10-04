@@ -162,13 +162,6 @@ header a img {
   display: flex;
   justify-content: space-around;
 }
-.indexSectionDos .tarjetasImportante .importanteMain {
-  background-color: #B1C29E;
-  width: 18.75rem;
-  margin-left: 3.125rem;
-  margin-right: 3.125rem;
-  padding: 6.25rem;
-}
 .indexSectionDos .tarjetasImportante .importanteMain article {
   display: flex;
   justify-content: center;
@@ -207,16 +200,12 @@ header a img {
 }
 
 .divContactos {
-  background-color: #B1C29E;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: none;
   gap: none;
-  height: 43.75rem;
-  margin: 3.125rem;
-  width: 31.25rem;
 }
 .divContactos h3 {
   font-size: 1.875rem;
@@ -269,11 +258,6 @@ header a img {
   height: 34.6875rem;
 }
 .membresiaSection .tarjetasMembresia div {
-  background-color: #B1C29E;
-  width: 21.875rem;
-  margin-left: 3.125rem;
-  margin-right: 3.125rem;
-  padding: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,19 +372,6 @@ footer .botonesFooter li {
   list-style: none;
   margin: 0.3125rem;
 }
-footer .botonesFooter li a {
-  background-color: #FFE6A9;
-  color: #4b6e66;
-  text-decoration: none;
-  font-family: "Genos", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  padding: 0.3125rem 0.9375rem;
-  border-radius: 0.625rem;
-  margin: 6.25rem;
-}
-
 .imgFooter {
   width: 1.875rem;
   border-radius: 50%;
@@ -425,7 +396,22 @@ footer .botonesFooter li a {
   list-style: none;
   margin: 0.3125rem;
 }
-.navBar .botonesNav a {
+.card1, .indexSectionDos .tarjetasImportante .importanteMain, .membresiaSection .tarjetasMembresia div {
+  background-color: #B1C29E;
+  width: 21.875rem;
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+  padding: 6.25rem;
+}
+
+.card2, .divContactos {
+  background-color: #B1C29E;
+  height: 43.75rem;
+  margin: 3.125rem;
+  width: 31.25rem;
+}
+
+.button, footer .botonesFooter li a, .navBar .botonesNav a {
   background-color: #FFE6A9;
   color: #4b6e66;
   text-decoration: none;
@@ -533,6 +519,11 @@ footer .botonesFooter li a {
   }
   header .navBar .botonesNav li a {
     padding: 0.2188rem;
+  }
+}
+@media (max-width: 1363px) {
+  .indexSectionDos .tarjetasImportante .importanteMain {
+    width: 18.75rem;
   }
 }
 @media (max-width: 1210px) {

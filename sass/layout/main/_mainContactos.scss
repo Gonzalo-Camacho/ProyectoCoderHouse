@@ -12,11 +12,8 @@
 }
 
 .divContactos{
-    background-color:map-get($colores,color2);
     @include flex(center,center,column,none,none);
-    height: 43.75rem;
-    margin: 3.125rem;
-    width: 31.25rem;
+    @extend .card2;
     h3{
         font-size: 1.875rem;
         margin-bottom: 4.375rem;
