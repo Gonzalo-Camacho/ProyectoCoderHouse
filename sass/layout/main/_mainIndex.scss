@@ -16,6 +16,7 @@
         display: flex;
         justify-content: space-around;
         .importanteMain{
+            border-radius: 25%;
             @extend .card1;
             article{
                 @include flex(center,center,column,none,none);
@@ -24,10 +25,14 @@
                     display: flex;
                     justify-content: center;
                     margin: .9375rem;
+                    text-align: center;
+                    font-size: 1.875rem;
                 }
                 p{
                     margin: .9375rem;
                     width: 9.375rem;
+                    text-align: center;
+                    font-size: 1.25rem;
                 }
             }
         }

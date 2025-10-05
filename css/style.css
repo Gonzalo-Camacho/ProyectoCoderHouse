@@ -127,6 +127,11 @@ p {
 header {
   background-color: #15469b;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: none;
+  gap: none;
 }
 header a {
   width: 10%;
@@ -166,6 +171,9 @@ header a img {
   display: flex;
   justify-content: space-around;
 }
+.indexSectionDos .tarjetasImportante .importanteMain {
+  border-radius: 25%;
+}
 .indexSectionDos .tarjetasImportante .importanteMain article {
   display: flex;
   justify-content: center;
@@ -179,10 +187,14 @@ header a img {
   display: flex;
   justify-content: center;
   margin: 0.9375rem;
+  text-align: center;
+  font-size: 1.875rem;
 }
 .indexSectionDos .tarjetasImportante .importanteMain article p {
   margin: 0.9375rem;
   width: 9.375rem;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .sectionContactos {
@@ -274,23 +286,35 @@ header a img {
   font-size: 3.125rem;
 }
 
-.contenedorNosotros {
-  background-color: #b7d2eb;
+.sectionNosotros {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: none;
   gap: none;
+}
+.sectionNosotros .contenedorNosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: none;
+  gap: none;
+  background-color: #b7d2eb;
   height: 43.75rem;
   margin: 3.125rem;
+  border-radius: 2.5%;
+  width: 1050px;
 }
-.contenedorNosotros h3 {
+.sectionNosotros .contenedorNosotros h3 {
   font-size: 1.875rem;
+  margin-bottom: 3.125rem;
 }
-.contenedorNosotros p {
+.sectionNosotros .contenedorNosotros p {
   font-size: 1.5625rem;
   width: 60%;
+  text-align: start;
 }
 
 .sectionTienda {
@@ -325,6 +349,7 @@ header a img {
   gap: none;
   height: 100%;
   width: 100%;
+  border-radius: 5%;
 }
 .gridProductos div a {
   background-color: #f3f3e4;
@@ -394,6 +419,7 @@ footer .botonesFooter li {
   height: 43.75rem;
   margin: 3.125rem;
   width: 31.25rem;
+  border-radius: 5%;
 }
 
 .membresiaMain, .cardOro, .membresiaSection .tarjetasMembresia .membresiaOro, .cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata, .cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce {
@@ -403,6 +429,7 @@ footer .botonesFooter li {
   flex-direction: column;
   flex-wrap: none;
   gap: none;
+  border-radius: 5%;
 }
 .membresiaMain h2, .cardOro h2, .membresiaSection .tarjetasMembresia .membresiaOro h2, .cardPlata h2, .membresiaSection .tarjetasMembresia .membresiaPlata h2, .cardBronce h2, .membresiaSection .tarjetasMembresia .membresiaBronce h2 {
   width: 12.5rem;
@@ -730,6 +757,9 @@ footer .botonesFooter li {
 @media (max-width: 375px) {
   .membresiaSection .tarjetasMembresia .membresiaMain, .membresiaSection .tarjetasMembresia .cardBronce, .membresiaSection .tarjetasMembresia .membresiaBronce, .membresiaSection .tarjetasMembresia .cardPlata, .membresiaSection .tarjetasMembresia .membresiaPlata, .membresiaSection .tarjetasMembresia .cardOro, .membresiaSection .tarjetasMembresia .membresiaOro {
     width: 17.1875rem;
+  }
+  .membresiaSection .tarjetasMembresia .membresiaMain ul li, .membresiaSection .tarjetasMembresia .cardBronce ul li, .membresiaSection .tarjetasMembresia .membresiaBronce ul li, .membresiaSection .tarjetasMembresia .cardPlata ul li, .membresiaSection .tarjetasMembresia .membresiaPlata ul li, .membresiaSection .tarjetasMembresia .cardOro ul li, .membresiaSection .tarjetasMembresia .membresiaOro ul li {
+    font-size: 0.9063rem;
   }
 }
 

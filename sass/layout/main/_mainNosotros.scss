@@ -6,16 +6,23 @@
     }
 }
 
-.contenedorNosotros{
-    background-color:map-get($colores,color2);
-    @include flex(space-evenly,center,column,none,none);
-    height: 43.75rem;
-    margin: 3.125rem;
-    h3{
-        font-size: 1.875rem;
-    }
-    p{
-        font-size: 1.5625rem;
-        width: 60%;
+.sectionNosotros{
+    @include flex(center,center,column,none,none);
+    .contenedorNosotros{
+        @include flex(center,center,column,none,none);
+        background-color:map-get($colores,color2);
+        height: 43.75rem;
+        margin: 3.125rem;
+        border-radius: 2.5%;
+        width: 1050px;
+        h3{
+            font-size: 1.875rem;
+            margin-bottom: 3.125rem;
+        }
+        p{
+            font-size: 1.5625rem;
+            width: 60%;
+            text-align:start;
+        }
     }
 }

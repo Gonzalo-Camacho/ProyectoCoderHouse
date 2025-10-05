@@ -11,11 +11,13 @@
     height: 43.75rem;
     margin: 3.125rem;
     width: 31.25rem;
+    border-radius: 5%;
 }
 
 .membresiaMain{
     @include flex(center,center,column,none,none);
     @extend .card1;
+    border-radius: 5%;
         h2{
             width: 12.5rem;
             display: flex;
@@ -52,4 +54,3 @@
     --angle: 45deg; 
     background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
 }
-

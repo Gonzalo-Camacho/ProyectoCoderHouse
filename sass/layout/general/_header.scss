@@ -1,6 +1,6 @@
 header{
     background-color:map-get($colores,color1);
-    display: flex;
+    @include flex(center,center,none,none,none);
     a{
         width: 10%;
         img{
